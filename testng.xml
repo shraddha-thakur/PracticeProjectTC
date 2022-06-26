@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<!--<listeners> <listener class-name="com.listeners.AnnotationTransformer" 
+		/> </listeners> -->
+	<test thread-count="5" name="Test" parallel="methods"> <!-- parallel="methods" -->
+		<classes>
+			<!-- <class name="com.tmb.tests.ExampleTest"/> -->
+			<!-- <class name="com.tmb.tests.HomepageTests"/> -->
+			<class name="com.pageFactory.Runner" />
+			<class name="com.pageFactory.DynamicLocatorsDemo" />
+			<class name="com.extentReports.ExtentReportsDemo" />
+			<class name="com.listeners.Runner" />
+			<class name="com.exceptions.ExceptionDemo" />
+			<class name="com.exceptions.ExceptionDemoTest" />
+			<class name="com.AssertJ.AssertDemo" />
+			<class name="com.AssertJ.AssertJodaDemo" />
+			<class name="com.AssertJ.AssertJSoftAssertions" />
+			<class
+				name="com.dataprovider.latest.DataProviderDependencyInjection" />
+			<class name="com.dataprovider.latest.DataProviderTest" />
+			<class name="com.dataprovider.latest.DataProviderTest2" />
+			<class name="com.dataprovider.latest.DataProviderWithExcel" />
+			<class name="com.dataprovider.latest.DataProviderWithJSON" />
+			<class name="com.encodedecode.Runner"></class>
+			<class name="com.tmb.tests.ExampleTest"></class>
+			<class name="com.tmb.tests.HomepageTests"></class>
+			<class name="com.tmb.tests.LoginPageTest"></class>
+			<class name="com.tmb.tests.LoginPageTestBasic"></class>
+			<class name="com.trywithresources.Runner"></class>
+
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="33" passed="26" failed="7" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-26T14:32:44 IST" name="Suite" finished-at="2022-06-26T14:36:13 IST" duration-ms="208361">
+    <groups>
+    </groups>
+    <test started-at="2022-06-26T14:32:44 IST" name="Test" finished-at="2022-06-26T14:36:13 IST" duration-ms="208361">
+      <class name="com.AssertJ.AssertDemo">
+        <test-method signature="customClassTest()[pri:0, instance:com.AssertJ.AssertDemo@9225652]" started-at="2022-06-26T14:32:45 IST" name="customClassTest" finished-at="2022-06-26T14:32:45 IST" duration-ms="5" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [com.AssertJ.Employee@5d9526eb] but found [com.AssertJ.Employee@6d38e5b2]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [com.AssertJ.Employee@5d9526eb] but found [com.AssertJ.Employee@6d38e5b2]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:617)
+at com.AssertJ.AssertDemo.customClassTest(AssertDemo.java:104)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customClassTest -->
+        <test-method signature="numbersTest()[pri:0, instance:com.AssertJ.AssertDemo@9225652]" started-at="2022-06-26T14:32:45 IST" name="numbersTest" finished-at="2022-06-26T14:32:45 IST" duration-ms="598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- numbersTest -->
+        <test-method signature="stringTest()[pri:0, instance:com.AssertJ.AssertDemo@9225652]" started-at="2022-06-26T14:32:45 IST" name="stringTest" finished-at="2022-06-26T14:32:45 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stringTest -->
+      </class> <!-- com.AssertJ.AssertDemo -->
+      <class name="com.tmb.tests.HomepageTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tmb.tests.HomepageTests@1700915]" started-at="2022-06-26T14:33:45 IST" name="setUp" finished-at="2022-06-26T14:35:17 IST" duration-ms="91893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Test2()[pri:0, instance:com.tmb.tests.HomepageTests@1700915]" started-at="2022-06-26T14:35:17 IST" name="Test2" finished-at="2022-06-26T14:35:39 IST" duration-ms="21338" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [8] but found [13]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [8] but found [13]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:907)
+at org.testng.Assert.assertEquals(Assert.java:917)
+at com.tmb.tests.HomepageTests.Test2(HomepageTests.java:49)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tmb.tests.HomepageTests@1700915]" started-at="2022-06-26T14:35:39 IST" name="tearDown" finished-at="2022-06-26T14:36:12 IST" duration-ms="33192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tmb.tests.HomepageTests -->
+      <class name="com.dataprovider.latest.DataProviderWithExcel">
+        <test-method signature="test(java.util.Map)[pri:0, instance:com.dataprovider.latest.DataProviderWithExcel@9353778]" started-at="2022-06-26T14:32:50 IST" name="test" data-provider="getData1" finished-at="2022-06-26T14:32:50 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fname=shraddha, password=123456, lname=thakur, username=shraddha}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.util.Map)[pri:0, instance:com.dataprovider.latest.DataProviderWithExcel@9353778]" started-at="2022-06-26T14:32:50 IST" name="test" data-provider="getData1" finished-at="2022-06-26T14:32:50 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fname=QA, password=123, lname=ST, username=test1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.util.Map)[pri:0, instance:com.dataprovider.latest.DataProviderWithExcel@9353778]" started-at="2022-06-26T14:32:50 IST" name="test" data-provider="getData1" finished-at="2022-06-26T14:32:50 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fname=lkhjh, password=56445, lname=jhgu, username=test2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.dataprovider.latest.DataProviderWithExcel -->
+      <class name="com.dataprovider.latest.DataProviderWithJSON">
+        <test-method signature="testDPWithJson(java.util.Map)[pri:0, instance:com.dataprovider.latest.DataProviderWithJSON@6a28ffa4]" started-at="2022-06-26T14:33:12 IST" name="testDPWithJson" data-provider="getData" finished-at="2022-06-26T14:33:12 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=test@12345, url=https:/www.amazon.in, browser=firefox, username=123@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDPWithJson -->
+        <test-method signature="testDPWithJson(java.util.Map)[pri:0, instance:com.dataprovider.latest.DataProviderWithJSON@6a28ffa4]" started-at="2022-06-26T14:33:12 IST" name="testDPWithJson" data-provider="getData" finished-at="2022-06-26T14:33:12 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=test@123, url=https:/www.amazon.in, browser=chrome, username=456@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDPWithJson -->
+      </class> <!-- com.dataprovider.latest.DataProviderWithJSON -->
+      <class name="com.extentReports.ExtentReportsDemo">
+        <test-method signature="test()[pri:0, instance:com.extentReports.ExtentReportsDemo@64cd705f]" started-at="2022-06-26T14:32:44 IST" name="test" finished-at="2022-06-26T14:33:36 IST" duration-ms="51484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.extentReports.ExtentReportsDemo -->
+      <class name="com.listeners.Runner">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.listeners.Runner@a9cd3b1]" started-at="2022-06-26T14:32:44 IST" name="setUpSuite" finished-at="2022-06-26T14:32:44 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.listeners.Runner@a9cd3b1]" started-at="2022-06-26T14:32:44 IST" name="setUp" finished-at="2022-06-26T14:32:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test1()[pri:0, instance:com.listeners.Runner@a9cd3b1]" started-at="2022-06-26T14:32:44 IST" name="test1" finished-at="2022-06-26T14:32:44 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.listeners.Runner@a9cd3b1]" started-at="2022-06-26T14:32:44 IST" name="tearDown" finished-at="2022-06-26T14:32:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.listeners.Runner@a9cd3b1]" started-at="2022-06-26T14:32:44 IST" name="setUp" finished-at="2022-06-26T14:32:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test2()[pri:0, instance:com.listeners.Runner@a9cd3b1]" started-at="2022-06-26T14:32:44 IST" name="test2" finished-at="2022-06-26T14:32:44 IST" duration-ms="21" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.listeners.Runner.test2(Runner.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.listeners.Runner@a9cd3b1]" started-at="2022-06-26T14:32:44 IST" name="tearDown" finished-at="2022-06-26T14:32:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.listeners.Runner@a9cd3b1]" started-at="2022-06-26T14:32:45 IST" name="setUp" finished-at="2022-06-26T14:32:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test3()[pri:0, instance:com.listeners.Runner@a9cd3b1]" started-at="2022-06-26T14:32:45 IST" name="test3" finished-at="2022-06-26T14:32:45 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.listeners.Runner@a9cd3b1]" started-at="2022-06-26T14:32:45 IST" name="tearDown" finished-at="2022-06-26T14:32:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:com.listeners.Runner@a9cd3b1]" started-at="2022-06-26T14:36:13 IST" name="tearDownSuite" finished-at="2022-06-26T14:36:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- com.listeners.Runner -->
+      <class name="com.dataprovider.latest.DataProviderDependencyInjection">
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.dataprovider.latest.DataProviderDependencyInjection@6580cfdd]" started-at="2022-06-26T14:32:46 IST" name="setUp" finished-at="2022-06-26T14:32:46 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@9d5509a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test1(java.lang.String, java.lang.String)[pri:0, instance:com.dataprovider.latest.DataProviderDependencyInjection@6580cfdd]" started-at="2022-06-26T14:32:46 IST" name="test1" data-provider="getData" finished-at="2022-06-26T14:32:46 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shraddha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc124]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.dataprovider.latest.DataProviderDependencyInjection@6580cfdd]" started-at="2022-06-26T14:32:46 IST" name="setUp" finished-at="2022-06-26T14:32:46 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@179ece50]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test1(java.lang.String, java.lang.String)[pri:0, instance:com.dataprovider.latest.DataProviderDependencyInjection@6580cfdd]" started-at="2022-06-26T14:32:46 IST" name="test1" data-provider="getData" finished-at="2022-06-26T14:32:46 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thakur]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- com.dataprovider.latest.DataProviderDependencyInjection -->
+      <class name="com.tmb.tests.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tmb.tests.LoginPageTest@21de60b4]" started-at="2022-06-26T14:34:47 IST" name="setUp" finished-at="2022-06-26T14:35:56 IST" duration-ms="69121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Test1()[pri:0, instance:com.tmb.tests.LoginPageTest@21de60b4]" started-at="2022-06-26T14:35:56 IST" name="Test1" finished-at="2022-06-26T14:36:01 IST" duration-ms="5746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tmb.tests.LoginPageTest@21de60b4]" started-at="2022-06-26T14:36:01 IST" name="tearDown" finished-at="2022-06-26T14:36:13 IST" duration-ms="11270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tmb.tests.LoginPageTest -->
+      <class name="com.tmb.tests.LoginPageTestBasic">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tmb.tests.LoginPageTestBasic@c267ef4]" started-at="2022-06-26T14:34:50 IST" name="setUp" finished-at="2022-06-26T14:35:46 IST" duration-ms="56331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tmb.tests.LoginPageTestBasic@c267ef4]" started-at="2022-06-26T14:34:50 IST" name="setUp" finished-at="2022-06-26T14:35:55 IST" duration-ms="64847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Test1()[pri:0, instance:com.tmb.tests.LoginPageTestBasic@c267ef4]" started-at="2022-06-26T14:35:46 IST" name="Test1" finished-at="2022-06-26T14:35:55 IST" duration-ms="9111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method signature="Test2()[pri:0, instance:com.tmb.tests.LoginPageTestBasic@c267ef4]" started-at="2022-06-26T14:35:55 IST" name="Test2" finished-at="2022-06-26T14:36:12 IST" duration-ms="17293" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[java.net.ConnectException: Failed to connect to localhost/127.0.0.1:6461
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHRADDHA-PC', ip: '192.168.29.116', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '15.0.1'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/127.0.0.1:6461
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHRADDHA-PC', ip: '192.168.29.116', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '15.0.1'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+at com.tmb.tests.LoginPageTestBasic.Test2(LoginPageTestBasic.java:48)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.net.ConnectException: Failed to connect to localhost/127.0.0.1:6461
+at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
+at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+at okhttp3.RealCall.execute(RealCall.java:77)
+at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+... 19 more
+Caused by: java.net.ConnectException: Connection refused: no further information
+at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660)
+at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333)
+at java.base/java.net.Socket.connect(Socket.java:648)
+at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+... 39 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tmb.tests.LoginPageTestBasic@c267ef4]" started-at="2022-06-26T14:35:55 IST" name="tearDown" finished-at="2022-06-26T14:36:11 IST" duration-ms="15783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tmb.tests.LoginPageTestBasic@c267ef4]" started-at="2022-06-26T14:36:12 IST" name="tearDown" finished-at="2022-06-26T14:36:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tmb.tests.LoginPageTestBasic -->
+      <class name="com.dataprovider.latest.DataProviderTest2">
+        <test-method signature="test1(com.dataprovider.latest.Employee)[pri:0, instance:com.dataprovider.latest.DataProviderTest2@63355449]" started-at="2022-06-26T14:32:46 IST" name="test1" data-provider="getData1" finished-at="2022-06-26T14:32:46 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.dataprovider.latest.Employee@3b82e593]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(com.dataprovider.latest.Employee)[pri:0, instance:com.dataprovider.latest.DataProviderTest2@63355449]" started-at="2022-06-26T14:32:46 IST" name="test1" data-provider="getData1" finished-at="2022-06-26T14:32:46 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.dataprovider.latest.Employee@4ed0ee36]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2(java.lang.String)[pri:0, instance:com.dataprovider.latest.DataProviderTest2@63355449]" started-at="2022-06-26T14:32:46 IST" name="test2" data-provider="getData1" finished-at="2022-06-26T14:32:46 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shraddha]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2(java.lang.String)[pri:0, instance:com.dataprovider.latest.DataProviderTest2@63355449]" started-at="2022-06-26T14:32:46 IST" name="test2" data-provider="getData1" finished-at="2022-06-26T14:32:46 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thakur]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2(java.lang.String)[pri:0, instance:com.dataprovider.latest.DataProviderTest2@63355449]" started-at="2022-06-26T14:32:46 IST" name="test2" data-provider="getData1" finished-at="2022-06-26T14:32:46 IST" duration-ms="24" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[automation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- com.dataprovider.latest.DataProviderTest2 -->
+      <class name="com.AssertJ.AssertJSoftAssertions">
+        <test-method signature="assertBDDStyleTest()[pri:0, instance:com.AssertJ.AssertJSoftAssertions@6a400542]" started-at="2022-06-26T14:32:46 IST" name="assertBDDStyleTest" finished-at="2022-06-26T14:32:46 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertBDDStyleTest -->
+      </class> <!-- com.AssertJ.AssertJSoftAssertions -->
+      <class name="com.AssertJ.AssertJodaDemo">
+        <test-method signature="dateTimeTest()[pri:0, instance:com.AssertJ.AssertJodaDemo@654f0d9c]" started-at="2022-06-26T14:32:45 IST" name="dateTimeTest" finished-at="2022-06-26T14:32:46 IST" duration-ms="470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateTimeTest -->
+      </class> <!-- com.AssertJ.AssertJodaDemo -->
+      <class name="com.dataprovider.latest.DataProviderTest">
+        <test-method signature="test1(com.dataprovider.latest.Employee)[pri:0, instance:com.dataprovider.latest.DataProviderTest@7e0b85f9]" started-at="2022-06-26T14:32:46 IST" name="test1" data-provider="getData2" finished-at="2022-06-26T14:32:46 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.dataprovider.latest.Employee@3c339ce3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(com.dataprovider.latest.Employee)[pri:0, instance:com.dataprovider.latest.DataProviderTest@7e0b85f9]" started-at="2022-06-26T14:32:46 IST" name="test1" data-provider="getData2" finished-at="2022-06-26T14:32:46 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.dataprovider.latest.Employee@50c02155]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- com.dataprovider.latest.DataProviderTest -->
+      <class name="com.tmb.tests.ExampleTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.tmb.tests.ExampleTest@48ae9b55]" started-at="2022-06-26T14:33:12 IST" name="SetUp" finished-at="2022-06-26T14:33:45 IST" duration-ms="33117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="SeleniumTest1()[pri:0, instance:com.tmb.tests.ExampleTest@48ae9b55]" started-at="2022-06-26T14:33:45 IST" name="SeleniumTest1" finished-at="2022-06-26T14:34:40 IST" duration-ms="54160" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test Failed expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test Failed expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at com.tmb.tests.ExampleTest.SeleniumTest1(ExampleTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeleniumTest1 -->
+        <test-method signature="SeleniumTest2()[pri:0, instance:com.tmb.tests.ExampleTest@48ae9b55]" started-at="2022-06-26T14:33:45 IST" name="SeleniumTest2" finished-at="2022-06-26T14:33:45 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeleniumTest2 -->
+        <test-method signature="SeleniumTest3()[pri:0, instance:com.tmb.tests.ExampleTest@48ae9b55]" started-at="2022-06-26T14:33:45 IST" name="SeleniumTest3" finished-at="2022-06-26T14:33:45 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeleniumTest3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tmb.tests.ExampleTest@48ae9b55]" started-at="2022-06-26T14:34:40 IST" name="tearDown" finished-at="2022-06-26T14:34:54 IST" duration-ms="14762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tmb.tests.ExampleTest -->
+      <class name="com.pageFactory.Runner">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pageFactory.Runner@13e39c73]" started-at="2022-06-26T14:32:44 IST" name="setUp" finished-at="2022-06-26T14:32:59 IST" duration-ms="14740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pageFactory.Runner@13e39c73]" started-at="2022-06-26T14:32:44 IST" name="setUp" finished-at="2022-06-26T14:32:59 IST" duration-ms="14739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pageFactory.Runner@13e39c73]" started-at="2022-06-26T14:32:44 IST" name="setUp" finished-at="2022-06-26T14:32:59 IST" duration-ms="14704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test()[pri:0, instance:com.pageFactory.Runner@13e39c73]" started-at="2022-06-26T14:32:59 IST" name="test" finished-at="2022-06-26T14:34:50 IST" duration-ms="110800" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHRADDHA-PC', ip: '192.168.29.116', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\SHRADD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60543}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHRADDHA-PC', ip: '192.168.29.116', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\SHRADD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60543}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy20.clear(Unknown Source)
+at com.pageFactory.PageFactoryDemo.findElements10Times(PageFactoryDemo.java:24)
+at com.pageFactory.Runner.test(Runner.java:30)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test2()[pri:0, instance:com.pageFactory.Runner@13e39c73]" started-at="2022-06-26T14:32:59 IST" name="test2" finished-at="2022-06-26T14:34:50 IST" duration-ms="110878" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHRADDHA-PC', ip: '192.168.29.116', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\SHRADD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60543}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+*** Element info: {Using=name, value=q}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHRADDHA-PC', ip: '192.168.29.116', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\SHRADD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60543}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+*** Element info: {Using=name, value=q}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+at org.openqa.selenium.By$ByName.findElement(By.java:284)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.pageFactory.IRecommendNoPageFactoryDemo.findElements10Times(IRecommendNoPageFactoryDemo.java:21)
+at com.pageFactory.Runner.test2(Runner.java:43)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test1()[pri:0, instance:com.pageFactory.Runner@13e39c73]" started-at="2022-06-26T14:32:59 IST" name="test1" finished-at="2022-06-26T14:34:06 IST" duration-ms="66484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pageFactory.Runner@13e39c73]" started-at="2022-06-26T14:34:06 IST" name="tearDown" finished-at="2022-06-26T14:34:46 IST" duration-ms="40889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pageFactory.Runner@13e39c73]" started-at="2022-06-26T14:34:50 IST" name="tearDown" finished-at="2022-06-26T14:34:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pageFactory.Runner@13e39c73]" started-at="2022-06-26T14:34:50 IST" name="tearDown" finished-at="2022-06-26T14:34:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pageFactory.Runner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

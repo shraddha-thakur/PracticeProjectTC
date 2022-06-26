@@ -1,0 +1,62 @@
+Trail of Automation
+
+Check from video 1 and update
+
+
+Video part 8
+Classes changes in Video 8
+
+Driver.java // refactoring changes in 
+if (Objects.isNull(DriverManager.getDriver()))
+DriverManager.setDriver(new ChromeDriver()); // refactoring code
+
+BaseTest
+	change methods to protected 
+
+Check the class wise code that has
+final class 
+private constructor
+public testcases methods
+naming conventions
+
+Properties file -- why we need that
+when/if manual tester wants to change the values of e.g URL, browser, etc. they dont need to go to class level
+hence create folder under resources ==>> config
+Create file as config.properties
+
+for naming labels use lowercase for easy use e.g url, browser, implicitwait
+
+Create a package Utils
+Class as ReadPropertyFile
+null error found as "Key" as string passed >> changed to key
+to avoid nullpointer error let add code for custom exception if case
+-------------------------------
+
+Video part 9
+javatraingsession >> StaticBlocks >> Runner.java 
+this example of static block which is also called eager initialization
+
+In ReadPropertyFile >> we have lazy initialization
+so add static block in that class modify getValue method
+
+whenever we pass String value(input parameter) always check for Nullpointer
+so add check for the string input parameter >> thumb rule 
+
+changes in getvalue method >> direct passing
+
+now Hashtable concept are there so refer and complete Naveens lessons then continue from Minibytes part 9 >> https://youtu.be/LcX1BeBJJso?t=689
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
